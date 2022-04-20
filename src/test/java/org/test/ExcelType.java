@@ -25,6 +25,7 @@ public class ExcelType {
 	    System.out.println(cell);
 	   int cellType = cell.getCellType();
 	   System.out.println(cellType);
+	   System.out.println("HAI");
 	   //type 1----string type 0---numbers,dates
 	   if(cellType==1)
 	   {
